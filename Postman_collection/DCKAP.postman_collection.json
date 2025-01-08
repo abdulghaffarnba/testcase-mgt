@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "95e12eb2-1a6b-4275-b2d0-7f8fb848e0e5",
+		"name": "DCKAP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9639736"
+	},
+	"item": [
+		{
+			"name": "Get Module",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Testcase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules/SpOrts",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules",
+						"SpOrts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Module",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"SportS\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Testcase",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": \"TSM001\", \"description\": \"Sports Test Layout 04 Slack Notifs\", \"status\": \"done\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules/SPorts",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules",
+						"SPorts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Testcase",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\": \"Football layout Updated\", \"status\": \"pending\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules/SPOrts/TSM001",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules",
+						"SPOrts",
+						"TSM001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Testcase",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules/sPorts/TSM001",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules",
+						"sPorts",
+						"TSM001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Module",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"local-sports\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules/SpOrts",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules",
+						"SpOrts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Module",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:21001/modules/news",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "21001",
+					"path": [
+						"modules",
+						"news"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

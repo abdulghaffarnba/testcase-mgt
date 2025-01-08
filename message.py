@@ -1,0 +1,12 @@
+MODULE_ADDED_SUCCESSFULLY = {"message": "Module added successfully"}
+MODULE_UPDATED_SUCCESSFULLY = {"message": "Module updated successfully"}
+MODULE_DELETED_SUCCESSFULLY = {"message": "Module deleted successfully"}
+MODULE_NOT_FOUND = {"error": "Module not found"}
+MODULE_ALREADY_EXISTS = {"error": "Module already exists"}
+MODULE_NAME_REQUIRED = {"error": "Module name is required"}
+CANNOT_DELETE_MODULE = {"error": "Cannot delete module with associated test cases."}
+MISSING_REQUIRED_FIELDS = {"error": "Missing required fields (id, description, status)"}
+TESTCASE_ADDED_SUCCESSFULLY = {"message": "Test case added successfully"}
+TESTCASE_UPDATED_SUCCESSFULLY = {"message": "Test case updated successfully"}
+TESTCASE_DELETED_SUCCESSFULLY = {"message": "Test case deleted successfully"}
+TESTCASE_NOT_FOUND = {"error": "Test case not found"}
